@@ -1,9 +1,12 @@
 import puppeteer from 'puppeteer';
 
+
+
 (async () => {
-  //#region variables
-  const urlToFile = 'file:///C:/Users/sky/Desktop/intTestsReports/Integration%20tests%202024/0725/index.html';
-  //#endregion
+  
+
+    const urlToFile = 'file:///C:/Users/sky/Desktop/intTestsReports/Integration%20tests%202024/0808/index.html';
+  
 
     // open browser
     const browser = await puppeteer.launch({

@@ -30,7 +30,6 @@ import puppeteer from 'puppeteer';
     });
 
     // print out results
-    // Format and print the scraped error messages
     errorMessages.forEach(message => {
         console.log('Error: ' +  message);
     });

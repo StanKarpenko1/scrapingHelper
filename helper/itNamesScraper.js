@@ -3,7 +3,7 @@ import puppeteer from 'puppeteer';
 (async () => {
 
     //#region variables
-    const urlToFile = 'file:///C:/Users/sky/Downloads/index.html'
+    const urlToFile = 'file:///C:/Users/sky/Desktop/Projects/nextGenTests/cypress/reports/html/index.html'
 
     //#endregion
 
