@@ -5,7 +5,10 @@ import puppeteer from 'puppeteer';
 (async () => {
   
 
-    const urlToFile = 'file:///C:/Users/sky/Desktop/intTestsReports/Integration%20tests%202024/0808/index.html';
+    const urlToFile = `
+        file:///C:/Users/sky/Downloads/index.html
+    
+    `;
   
 
     // open browser
@@ -14,7 +17,7 @@ import puppeteer from 'puppeteer';
         defaultViewport: false,
     });
     const page = await browser.newPage();
-    await page.goto(urlToFile);
+    await page.goto(urlToFile.trim());
 
      //start the test
     await page.waitForSelector('button.test--header-btn---mI0Oy');
